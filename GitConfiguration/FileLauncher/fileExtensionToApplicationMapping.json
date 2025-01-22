@@ -1,0 +1,14 @@
+[
+  {
+    "FileExtension": ".seq",
+    "ApplicationPath": "C:\\Program Files (x86)\\National Instruments\\Shared\\TestStand\\FileDifferLauncher.exe"
+  },
+  {
+    "FileExtension": ".tpj",
+    "ApplicationPath": "C:\\Program Files (x86)\\National Instruments\\Shared\\TestStand\\FileDifferLauncher.exe"
+  },
+  {
+    "FileExtension": ".tsw",
+    "ApplicationPath": "C:\\Program Files (x86)\\National Instruments\\Shared\\TestStand\\FileDifferLauncher.exe"
+  }
+]
