@@ -1,13 +1,13 @@
 # FileLauncher and ConfigurationModifier
-This repository contains two .NET 8 applications: `FileLauncher` and `ConfigurationModifier`. These tools are designed to assist with file comparison and merging of NI TestStand sequence files and any other files.
+This repository contains two .NET 8 applications: `FileLauncher` and `ConfigurationModifier`. These tools are designed to assist with file comparison, merging, and configuration management.
 
 
 ## ConfigurationModifier
-ConfigurationModifier is a .NET 8 application designed to modify configuration files for supported Git clients. It supports creating default configuration files and configuring Git external tools.
+ConfigurationModifier is a .NET 8 application designed to modify configuration files for various clients. It supports creating default configuration files and configuring Git external tools.
 
 ### Features
 - Create default configuration files.
-- Configure Git external tools for supported clients.
+- Configure Git external tools for various clients.
 - Logs configuration activities to a log file.
 
 ### Requirements
@@ -33,7 +33,7 @@ The application logs its activities to `ConfigurationModifierLog.log` in the app
 
 
 ## FileLauncher
-FileLauncher is a .NET 8 application designed to launch external tools for comparing and merging files.
+FileLauncher is a .NET 8 application designed to launch external tools for comparing and merging files. It supports custom file extension to application mappings and handles locked files by creating temporary copies.
 
 ### Features
 - Compare and merge files using external tools.
@@ -46,7 +46,7 @@ FileLauncher is a .NET 8 application designed to launch external tools for compa
 
 ### Usage
 #### Command Line Arguments
-FileLauncher.exe   <file1> <file2> [<file3> <file4>]
+FileLauncher.exe  \<file1> \<file2> [\<file3> \<file4>]
 <br>where
 - `file1`: The first file to compare or the Base file when merging.
 - `file2`: The second file to compare or the Local file when merging.
